@@ -1,0 +1,35 @@
+.todo_list{
+    background-color: rgb(255, 226, 189);
+    padding: 1.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-shadow: 2px 2px 10px 1px black;
+    margin-bottom: 5rem;
+    min-width: 26rem;
+
+}
+
+.todo_list p{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.todo_list h1{
+    text-align: center;
+}
+
+.todos_container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.todo_item{
+    width: 100%;
+    background-color: rgb(255, 167, 182);
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
